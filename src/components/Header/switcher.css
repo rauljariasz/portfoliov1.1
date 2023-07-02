@@ -1,0 +1,25 @@
+.switch-en {
+  animation: switch-en 300ms ease-in both;
+}
+
+@keyframes switch-en {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(45px);
+  }
+}
+
+.switch-es {
+  animation: switch-es 300ms ease-in both;
+}
+
+@keyframes switch-es {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-45px);
+  }
+}

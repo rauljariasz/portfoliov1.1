@@ -1,5 +1,5 @@
 const Layout = ({ children }) => {
-  return <div>{children}</div>
+  return <div className='px-8 lg:px-[200px] '>{children}</div>
 }
 
 export default Layout

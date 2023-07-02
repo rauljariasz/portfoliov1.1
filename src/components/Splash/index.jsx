@@ -24,7 +24,7 @@ const Splash = () => {
     <div
       className={`${
         exit && 'fade-out'
-      } w-screen h-screen bg-fondo flex justify-center items-center fixed`}
+      } w-screen h-screen bg-fondo flex justify-center items-center fixed z-[1000]`}
     >
       <img
         src={circleLogo}
